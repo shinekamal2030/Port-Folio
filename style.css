@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    /* color: #333333; */
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#80D0C7, #0093E9);
+}
+
+header {
+    /* background-color: #444444; */
+    padding: 10px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    height: 55px;
+}
+.name {
+    text-align: center;
+    font-size: 40px;
+}
+
+header h1 {
+    color: black;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    /* border-bottom: 1px solid #cccccc; */
+    padding: 20px 0;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #cccccc;
+}
+
+.about-me{
+    width: 800px;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.image{
+    border-radius: 50%;
+}
+
+.total-wide{
+    background-color: grey;
+}
+.dark-grey {
+    background-color: darkgray;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+}
